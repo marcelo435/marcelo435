@@ -35,11 +35,46 @@ Na **Inovee Contabilidade**, desenvolvo e mantenho os sistemas da empresa: o de 
 
 ## ⚡ Tecnologias
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,ts,js,nodejs,html,css&theme=dark" alt="Frontend" /><br/>
-  <img src="https://skillicons.dev/icons?i=postgres,supabase,python,java,spring&theme=dark" alt="Backend e banco" /><br/>
-  <img src="https://skillicons.dev/icons?i=astro,threejs,git,github,vscode,cloudflare,vite&theme=dark" alt="Ferramentas" />
-</p>
+<table align="center">
+<tr>
+<td valign="top">
+
+**Linguagens** · do código que escrevi
+
+<table>
+<tr><td><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="28" alt="" /></td><td><b>TypeScript</b></td><td><code>████████████░░░░░░░░</code> 62%</td></tr>
+<tr><td><img src="https://skillicons.dev/icons?i=js&theme=dark" width="28" alt="" /></td><td><b>JavaScript</b></td><td><code>████░░░░░░░░░░░░░░░░</code> 20%</td></tr>
+<tr><td><img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="28" alt="" /></td><td><b>SQL (PostgreSQL)</b></td><td><code>██░░░░░░░░░░░░░░░░░░</code> 12%</td></tr>
+<tr><td><img src="https://skillicons.dev/icons?i=css&theme=dark" width="28" alt="" /></td><td><b>CSS</b></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 4%</td></tr>
+<tr><td><img src="https://skillicons.dev/icons?i=astro&theme=dark" width="28" alt="" /></td><td><b>Astro</b></td><td><code>▏░░░░░░░░░░░░░░░░░░░</code> 1%</td></tr>
+<tr><td><img src="https://skillicons.dev/icons?i=html&theme=dark" width="28" alt="" /></td><td><b>HTML</b></td><td><code>▏░░░░░░░░░░░░░░░░░░░</code> &lt;1%</td></tr>
+<tr><td><img src="https://skillicons.dev/icons?i=py&theme=dark" width="28" alt="" /></td><td><b>Python</b></td><td><code>▏░░░░░░░░░░░░░░░░░░░</code> &lt;1%</td></tr>
+<tr><td><img src="https://skillicons.dev/icons?i=java&theme=dark" width="28" alt="" /></td><td><b>Java</b></td><td><code>▏░░░░░░░░░░░░░░░░░░░</code> &lt;1%</td></tr>
+</table>
+
+</td>
+<td valign="top">
+
+**Frameworks e ferramentas** · em quantos projetos
+
+<table>
+<tr><td><img src="https://skillicons.dev/icons?i=react&theme=dark" width="28" alt="" /></td><td><b>React</b></td><td>3 projetos</td></tr>
+<tr><td><img src="https://skillicons.dev/icons?i=react&theme=dark" width="28" alt="" /></td><td><b>React Native</b></td><td>2 projetos</td></tr>
+<tr><td><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="28" alt="" /></td><td><b>Node.js</b></td><td>6 projetos</td></tr>
+<tr><td><img src="https://skillicons.dev/icons?i=vite&theme=dark" width="28" alt="" /></td><td><b>Vite</b></td><td>3 projetos</td></tr>
+<tr><td><img src="https://skillicons.dev/icons?i=supabase&theme=dark" width="28" alt="" /></td><td><b>Supabase</b></td><td>2 projetos</td></tr>
+<tr><td><img src="https://skillicons.dev/icons?i=threejs&theme=dark" width="28" alt="" /></td><td><b>Three.js</b></td><td>1 projeto</td></tr>
+<tr><td><img src="https://skillicons.dev/icons?i=spring&theme=dark" width="28" alt="" /></td><td><b>Spring</b></td><td>1 projeto</td></tr>
+<tr><td><img src="https://skillicons.dev/icons?i=cloudflare&theme=dark" width="28" alt="" /></td><td><b>Cloudflare</b></td><td>1 projeto</td></tr>
+<tr><td><img src="https://skillicons.dev/icons?i=git&theme=dark" width="28" alt="" /></td><td><b>Git</b></td><td>12 projetos</td></tr>
+<tr><td><img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="28" alt="" /></td><td><b>VS Code</b></td><td>12 projetos</td></tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<p align="center"><sub>Medido no código dos meus repositórios, públicos e privados, em novembro de 2026.</sub></p>
 
 ---
 
