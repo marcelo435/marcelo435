@@ -52,22 +52,24 @@
 
 ## Sistemas da Inovee Contabilidade
 
-<sub>Repositórios privados da empresa.</sub>
-
-| Sistema | O que é | Tecnologias |
-|---|---|---|
-| **Sistema de gestão** <br/><sub>uso interno</sub> | Gestão do escritório de contabilidade: tarefas recorrentes e por etapas, empresas, incubadora, legalização, protocolos e controle de acesso por horário e computador. Atualização em tempo real, regras de segurança no banco e mais de 1.600 testes. | `React` `TypeScript` `Supabase` `PostgreSQL` `Cloudflare` |
-| **Inovee Eventos** <br/><sub>inscrições</sub> | Inscrição nos eventos da Inovee, com escolha da cidade, código de pré-inscrição, comprovante em PDF, confirmação pelo WhatsApp e painel da equipe que recebe as inscrições na hora. | `React` `TypeScript` `Supabase` `jsPDF` |
-| **[Site institucional](https://www.inoveecontabilidade.com)** | Site da Inovee com serviços, unidades, blog e perguntas frequentes; o símbolo da empresa em 3D é desenhado em tempo real na página inicial. | `Astro` `TypeScript` `Three.js` |
+<p align="center">
+  <img src="assets/projetos/gestao.svg" width="100%" alt="Sistema de gestão do escritório" />
+</p>
+<p align="center">
+  <img src="assets/projetos/eventos.svg" width="49%" alt="Inovee Eventos" />
+  <a href="https://www.inoveecontabilidade.com"><img src="assets/projetos/site.svg" width="49%" alt="Site institucional" /></a>
+</p>
 
 ## Outros projetos
 
-| Projeto | O que é | Tecnologias |
-|---|---|---|
-| **[QuickStock / Stock4event](https://github.com/marcelo435/Mobile)** <br/><sub>contribuidor</sub> | App de estoque e vendas em eventos: o comerciante monta quiosques e vende; o fornecedor gerencia catálogo, vendas e entregas. | `React Native` `Expo` `TypeScript` |
-| **[Claude Monitor](https://github.com/marcelo435/claude-monitor)** | Extensão do VS Code e widget de área de trabalho que mostra o uso do Claude Code: limites do plano, tokens e atividade dos agentes. | `JavaScript` `C#` `PowerShell` |
-| **[Bot de RPG para Discord](https://github.com/marcelo435/BOTRPG)** | Bot para mesas de RPG, com painel de vida por botões e dados salvos. | `Python` `discord.py` |
-| **[O Abismo – Painel VTT](https://github.com/marcelo435/site-ficha)** | Painel de mesa virtual para RPG, com fichas dos personagens. | `HTML` `CSS` `JavaScript` |
+<p align="center">
+  <a href="https://github.com/marcelo435/Mobile"><img src="assets/projetos/quickstock.svg" width="49%" alt="QuickStock / Stock4event" /></a>
+  <a href="https://github.com/marcelo435/claude-monitor"><img src="assets/projetos/claude-monitor.svg" width="49%" alt="Claude Monitor" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/marcelo435/BOTRPG"><img src="assets/projetos/botrpg.svg" width="49%" alt="Bot de RPG para Discord" /></a>
+  <a href="https://github.com/marcelo435/site-ficha"><img src="assets/projetos/abismo.svg" width="49%" alt="O Abismo – Painel VTT" /></a>
+</p>
 
 ---
 

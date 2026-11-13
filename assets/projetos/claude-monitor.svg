@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="222" viewBox="0 0 430 222" role="img" aria-label="Claude Monitor">
+<style>.l{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;font-size:11px;font-weight:600;letter-spacing:1.5px;fill:#8b949e} .t{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;font-size:19px;font-weight:600;fill:#fff} .d{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;font-size:13.5px;fill:#c9d1d9} .c{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;font-size:12px;fill:#e6edf3} .sn{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;font-size:20px;font-weight:700;fill:#fff} .sl{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;font-size:11.5px;fill:#8b949e} .in{animation:in .6s ease both} @keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}</style>
+<rect x="0.5" y="0.5" width="429" height="221" rx="10" fill="#000" stroke="#30363d"/>
+<g class="in"><text x="24" y="34" class="l">PÚBLICO</text>
+<text x="24" y="62" class="t">Claude Monitor</text>
+<text x="24" y="90" class="d">Extensão do VS Code e widget de área de trabalho que</text>
+<text x="24" y="108" class="d">mostra o uso do Claude Code: limites do plano, tokens e</text>
+<text x="24" y="126" class="d">atividade dos agentes.</text>
+<rect x="24" y="172" width="94" height="26" rx="13" fill="none" stroke="#484f58"/><text x="71.0" y="189.5" class="c" text-anchor="middle">JavaScript</text>
+<rect x="126" y="172" width="36" height="26" rx="13" fill="none" stroke="#484f58"/><text x="144.0" y="189.5" class="c" text-anchor="middle">C#</text>
+<rect x="170" y="172" width="94" height="26" rx="13" fill="none" stroke="#484f58"/><text x="217.0" y="189.5" class="c" text-anchor="middle">PowerShell</text>
+</g></svg>
