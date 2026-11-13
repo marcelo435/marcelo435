@@ -1,7 +1,8 @@
-# Gera a animação do campo minado nas contribuições e publica no ramo "output" (o README usa a imagem de lá).
+# Gera a cobrinha comendo as contribuições, em degradê preto e branco, e publica no ramo "output" (o README usa a
+# imagem de lá). Quadradinhos: do cinza bem escuro (sem contribuição) ao branco (mais contribuições); cobra branca.
 # As automações de terceiros ficam presas a uma versão exata (o código daquele dia), não a uma que muda sozinha.
-# Roda todo dia e também dá para rodar na mão (Actions › Campo minado › Run workflow).
-name: Campo minado
+# Roda todo dia e também dá para rodar na mão (Actions › Cobrinha › Run workflow).
+name: Cobrinha
 
 on:
   schedule:
@@ -15,10 +16,11 @@ jobs:
   gerar:
     runs-on: ubuntu-latest
     steps:
-      - uses: abozanona/pacman-contribution-graph@70945878b1118303b37b88060fc7145e1a57d7b1 # main em 2026-11-13
+      - uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
           github_user_name: ${{ github.repository_owner }}
-          games: minesweeper
+          outputs: |
+            dist/cobrinha.svg?color_snake=#ffffff&color_dots=#161b22,#3d3d3d,#707070,#a8a8a8,#ffffff
 
       - uses: crazy-max/ghaction-github-pages@c0d7ff0487ee0415efb7f32dab10ea880330b1dd # v3.1.0
         with:

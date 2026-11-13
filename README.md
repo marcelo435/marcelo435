@@ -79,13 +79,10 @@
   <img src="https://streak-stats.demolab.com?user=marcelo435&locale=pt_BR&hide_border=true&background=000000&stroke=333333&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=BBBBBB&dates=888888" alt="Sequência de contribuições" />
 </p>
 
-### Campo minado nas minhas contribuições
+### Cobrinha comendo minhas contribuições
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/marcelo435/marcelo435/output/minesweeper-contribution-graph-dark.svg" />
-    <img src="https://raw.githubusercontent.com/marcelo435/marcelo435/output/minesweeper-contribution-graph.svg" alt="Campo minado nas contribuições" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/marcelo435/marcelo435/output/cobrinha.svg" alt="Cobrinha comendo as contribuições" width="100%" />
 </p>
 
 <!-- Rodapé -->
