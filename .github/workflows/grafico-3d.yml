@@ -1,0 +1,30 @@
+# Gera o gráfico 3D das contribuições (pasta profile-3d-contrib) e grava no repositório; o README usa a imagem de lá.
+# Roda todo dia e também dá para rodar na mão (Actions › Gráfico 3D › Run workflow).
+# Para contar os commits dos repositórios privados (Inovee): no perfil, Contribution settings › Private contributions.
+name: Gráfico 3D
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Gravar as imagens
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          if git commit -m "Gráfico 3D atualizado"; then
+            git push
+          fi

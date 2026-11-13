@@ -1,0 +1,27 @@
+# Gera a animação do Pac-Man comendo as contribuições e publica no ramo "output" (o README usa a imagem de lá).
+# Roda todo dia e também dá para rodar na mão (Actions › Pac-Man › Run workflow).
+name: Pac-Man
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: pacman
+
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
