@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="360" viewBox="0 0 430 360" role="img" aria-label="Frameworks e ferramentas">
+<style>
+  .t{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;font-size:17px;font-weight:600;fill:#ffffff}
+  .s{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;font-size:12px;fill:#8b949e}
+  .n{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;font-size:14px;fill:#e6edf3}
+  .v{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;font-size:13px;fill:#8b949e}
+  .bar{transform-box:fill-box;transform-origin:left;animation:grow 1.2s cubic-bezier(.2,.8,.2,1) both}
+  .dot{animation:fade .4s ease both}
+  @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  @keyframes fade{from{opacity:0}to{opacity:1}}
+</style>
+<rect x="0.5" y="0.5" width="429" height="359" rx="10" fill="#000000" stroke="#30363d"/>
+<text x="24" y="38" class="t">Frameworks e ferramentas</text>
+<text x="24" y="58" class="s">em quantos projetos usei</text>
+<text x="24" y="103" class="n">Node.js</text><text x="406" y="103" class="v" text-anchor="end">6 projetos</text>
+<rect class="dot" style="animation-delay:0.00s" x="150" y="92" width="14" height="14" rx="3" fill="#ffffff"/>
+<rect class="dot" style="animation-delay:0.05s" x="172" y="92" width="14" height="14" rx="3" fill="#ffffff"/>
+<rect class="dot" style="animation-delay:0.10s" x="194" y="92" width="14" height="14" rx="3" fill="#ffffff"/>
+<rect class="dot" style="animation-delay:0.15s" x="216" y="92" width="14" height="14" rx="3" fill="#ffffff"/>
+<rect class="dot" style="animation-delay:0.20s" x="238" y="92" width="14" height="14" rx="3" fill="#ffffff"/>
+<rect class="dot" style="animation-delay:0.25s" x="260" y="92" width="14" height="14" rx="3" fill="#ffffff"/>
+<text x="24" y="137" class="n">React</text><text x="406" y="137" class="v" text-anchor="end">3 projetos</text>
+<rect class="dot" style="animation-delay:0.10s" x="150" y="126" width="14" height="14" rx="3" fill="#ffffff"/>
+<rect class="dot" style="animation-delay:0.15s" x="172" y="126" width="14" height="14" rx="3" fill="#ffffff"/>
+<rect class="dot" style="animation-delay:0.20s" x="194" y="126" width="14" height="14" rx="3" fill="#ffffff"/>
+<rect class="dot" style="animation-delay:0.25s" x="216" y="126" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.30s" x="238" y="126" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.35s" x="260" y="126" width="14" height="14" rx="3" fill="#21262d"/>
+<text x="24" y="171" class="n">Vite</text><text x="406" y="171" class="v" text-anchor="end">3 projetos</text>
+<rect class="dot" style="animation-delay:0.20s" x="150" y="160" width="14" height="14" rx="3" fill="#ffffff"/>
+<rect class="dot" style="animation-delay:0.25s" x="172" y="160" width="14" height="14" rx="3" fill="#ffffff"/>
+<rect class="dot" style="animation-delay:0.30s" x="194" y="160" width="14" height="14" rx="3" fill="#ffffff"/>
+<rect class="dot" style="animation-delay:0.35s" x="216" y="160" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.40s" x="238" y="160" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.45s" x="260" y="160" width="14" height="14" rx="3" fill="#21262d"/>
+<text x="24" y="205" class="n">React Native</text><text x="406" y="205" class="v" text-anchor="end">2 projetos</text>
+<rect class="dot" style="animation-delay:0.30s" x="150" y="194" width="14" height="14" rx="3" fill="#ffffff"/>
+<rect class="dot" style="animation-delay:0.35s" x="172" y="194" width="14" height="14" rx="3" fill="#ffffff"/>
+<rect class="dot" style="animation-delay:0.40s" x="194" y="194" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.45s" x="216" y="194" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.50s" x="238" y="194" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.55s" x="260" y="194" width="14" height="14" rx="3" fill="#21262d"/>
+<text x="24" y="239" class="n">Supabase</text><text x="406" y="239" class="v" text-anchor="end">2 projetos</text>
+<rect class="dot" style="animation-delay:0.40s" x="150" y="228" width="14" height="14" rx="3" fill="#ffffff"/>
+<rect class="dot" style="animation-delay:0.45s" x="172" y="228" width="14" height="14" rx="3" fill="#ffffff"/>
+<rect class="dot" style="animation-delay:0.50s" x="194" y="228" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.55s" x="216" y="228" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.60s" x="238" y="228" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.65s" x="260" y="228" width="14" height="14" rx="3" fill="#21262d"/>
+<text x="24" y="273" class="n">Three.js</text><text x="406" y="273" class="v" text-anchor="end">1 projeto</text>
+<rect class="dot" style="animation-delay:0.50s" x="150" y="262" width="14" height="14" rx="3" fill="#ffffff"/>
+<rect class="dot" style="animation-delay:0.55s" x="172" y="262" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.60s" x="194" y="262" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.65s" x="216" y="262" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.70s" x="238" y="262" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.75s" x="260" y="262" width="14" height="14" rx="3" fill="#21262d"/>
+<text x="24" y="307" class="n">Spring</text><text x="406" y="307" class="v" text-anchor="end">1 projeto</text>
+<rect class="dot" style="animation-delay:0.60s" x="150" y="296" width="14" height="14" rx="3" fill="#ffffff"/>
+<rect class="dot" style="animation-delay:0.65s" x="172" y="296" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.70s" x="194" y="296" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.75s" x="216" y="296" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.80s" x="238" y="296" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.85s" x="260" y="296" width="14" height="14" rx="3" fill="#21262d"/>
+<text x="24" y="341" class="n">Cloudflare</text><text x="406" y="341" class="v" text-anchor="end">1 projeto</text>
+<rect class="dot" style="animation-delay:0.70s" x="150" y="330" width="14" height="14" rx="3" fill="#ffffff"/>
+<rect class="dot" style="animation-delay:0.75s" x="172" y="330" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.80s" x="194" y="330" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.85s" x="216" y="330" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.90s" x="238" y="330" width="14" height="14" rx="3" fill="#21262d"/>
+<rect class="dot" style="animation-delay:0.95s" x="260" y="330" width="14" height="14" rx="3" fill="#21262d"/>
+</svg>

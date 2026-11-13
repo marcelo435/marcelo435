@@ -16,101 +16,73 @@
 
 ---
 
-## 🧠 Sobre mim
+## Sobre mim
 
-```ts
-const marcelo = {
-  funcao: "Desenvolvedor Full Stack",
-  hoje: "Estagiário de T.I. na Inovee Contabilidade",
-  estudando: "Análise e Desenvolvimento de Sistemas",
-  frontend: ["React", "React Native", "TypeScript"],
-  backend: ["Node.js", "PostgreSQL", "Supabase"],
-  gosto_de: ["Sistemas que as pessoas usam de verdade", "Segurança no banco", "Automatizar o que é repetitivo"],
-};
-```
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=1800&pause=400&color=FFFFFF&background=000000&multiline=true&repeat=false&width=620&height=200&lines=%24%20whoami;Marcelo%20Vitor%20%C2%B7%20desenvolvedor%20full%20stack;%24%20cat%20trabalho.txt;Estagi%C3%A1rio%20de%20T.I.%20na%20Inovee%20Contabilidade;%24%20ls%20sistemas-em-uso/;gestao-interna%20%20%20inovee-eventos%20%20%20site-institucional;%24%20cat%20estudando.txt;An%C3%A1lise%20e%20Desenvolvimento%20de%20Sistemas" alt="whoami: Marcelo Vitor, desenvolvedor full stack, estagiário de T.I. na Inovee Contabilidade" />
+</p>
 
-Na **Inovee Contabilidade**, desenvolvo e mantenho os sistemas da empresa: o de gestão interna, usado pela equipe todos os dias, o de inscrições nos eventos e o site institucional. Do banco de dados à tela, com testes, regras de segurança no servidor e publicação contínua.
+<table align="center">
+  <tr>
+    <td align="center" width="160"><h3>3</h3>sistemas em uso<br/>na Inovee</td>
+    <td align="center" width="160"><h3>1.600+</h3>testes<br/>automatizados</td>
+    <td align="center" width="160"><h3>88 mil</h3>linhas de código<br/>escritas</td>
+    <td align="center" width="160"><h3>12</h3>repositórios<br/>no GitHub</td>
+  </tr>
+</table>
 
 ---
 
-## ⚡ Tecnologias
+## Tecnologias
 
-<table align="center">
-<tr>
-<td valign="top">
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,js,nodejs,html,css&theme=dark" alt="Frontend" /><br/>
+  <img src="https://skillicons.dev/icons?i=postgres,supabase,python,java,spring&theme=dark" alt="Backend e banco" /><br/>
+  <img src="https://skillicons.dev/icons?i=astro,threejs,git,github,vscode,cloudflare,vite&theme=dark" alt="Ferramentas" />
+</p>
 
-**Linguagens** · do código que escrevi
-
-<table>
-<tr><td><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="28" alt="" /></td><td><b>TypeScript</b></td><td><code>████████████░░░░░░░░</code> 62%</td></tr>
-<tr><td><img src="https://skillicons.dev/icons?i=js&theme=dark" width="28" alt="" /></td><td><b>JavaScript</b></td><td><code>████░░░░░░░░░░░░░░░░</code> 20%</td></tr>
-<tr><td><img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="28" alt="" /></td><td><b>SQL (PostgreSQL)</b></td><td><code>██░░░░░░░░░░░░░░░░░░</code> 12%</td></tr>
-<tr><td><img src="https://skillicons.dev/icons?i=css&theme=dark" width="28" alt="" /></td><td><b>CSS</b></td><td><code>█░░░░░░░░░░░░░░░░░░░</code> 4%</td></tr>
-<tr><td><img src="https://skillicons.dev/icons?i=astro&theme=dark" width="28" alt="" /></td><td><b>Astro</b></td><td><code>▏░░░░░░░░░░░░░░░░░░░</code> 1%</td></tr>
-<tr><td><img src="https://skillicons.dev/icons?i=html&theme=dark" width="28" alt="" /></td><td><b>HTML</b></td><td><code>▏░░░░░░░░░░░░░░░░░░░</code> &lt;1%</td></tr>
-<tr><td><img src="https://skillicons.dev/icons?i=py&theme=dark" width="28" alt="" /></td><td><b>Python</b></td><td><code>▏░░░░░░░░░░░░░░░░░░░</code> &lt;1%</td></tr>
-<tr><td><img src="https://skillicons.dev/icons?i=java&theme=dark" width="28" alt="" /></td><td><b>Java</b></td><td><code>▏░░░░░░░░░░░░░░░░░░░</code> &lt;1%</td></tr>
-</table>
-
-</td>
-<td valign="top">
-
-**Frameworks e ferramentas** · em quantos projetos
-
-<table>
-<tr><td><img src="https://skillicons.dev/icons?i=react&theme=dark" width="28" alt="" /></td><td><b>React</b></td><td>3 projetos</td></tr>
-<tr><td><img src="https://skillicons.dev/icons?i=react&theme=dark" width="28" alt="" /></td><td><b>React Native</b></td><td>2 projetos</td></tr>
-<tr><td><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="28" alt="" /></td><td><b>Node.js</b></td><td>6 projetos</td></tr>
-<tr><td><img src="https://skillicons.dev/icons?i=vite&theme=dark" width="28" alt="" /></td><td><b>Vite</b></td><td>3 projetos</td></tr>
-<tr><td><img src="https://skillicons.dev/icons?i=supabase&theme=dark" width="28" alt="" /></td><td><b>Supabase</b></td><td>2 projetos</td></tr>
-<tr><td><img src="https://skillicons.dev/icons?i=threejs&theme=dark" width="28" alt="" /></td><td><b>Three.js</b></td><td>1 projeto</td></tr>
-<tr><td><img src="https://skillicons.dev/icons?i=spring&theme=dark" width="28" alt="" /></td><td><b>Spring</b></td><td>1 projeto</td></tr>
-<tr><td><img src="https://skillicons.dev/icons?i=cloudflare&theme=dark" width="28" alt="" /></td><td><b>Cloudflare</b></td><td>1 projeto</td></tr>
-<tr><td><img src="https://skillicons.dev/icons?i=git&theme=dark" width="28" alt="" /></td><td><b>Git</b></td><td>12 projetos</td></tr>
-<tr><td><img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="28" alt="" /></td><td><b>VS Code</b></td><td>12 projetos</td></tr>
-</table>
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="assets/linguagens.svg" width="49%" alt="Linguagens: TypeScript 62%, JavaScript 20%, SQL 12%, CSS 4%" />
+  <img src="assets/ferramentas.svg" width="49%" alt="Frameworks e ferramentas: Node.js, React, Vite, React Native, Supabase" />
+</p>
 
 <p align="center"><sub>Medido no código dos meus repositórios, públicos e privados, em novembro de 2026.</sub></p>
 
 ---
 
-## 🏢 Sistemas da Inovee Contabilidade
+## Sistemas da Inovee Contabilidade
 
 <sub>Repositórios privados da empresa.</sub>
 
 | Sistema | O que é | Tecnologias |
 |---|---|---|
-| 📋 **Sistema de gestão** <br/><sub>uso interno</sub> | Gestão do escritório de contabilidade: tarefas recorrentes e por etapas, empresas, incubadora, legalização, protocolos e controle de acesso por horário e computador. Atualização em tempo real, regras de segurança no banco e mais de 1.600 testes. | `React` `TypeScript` `Supabase` `PostgreSQL` `Cloudflare` |
-| 🎟️ **Inovee Eventos** <br/><sub>inscrições</sub> | Inscrição nos eventos da Inovee, com escolha da cidade, código de pré-inscrição, comprovante em PDF, confirmação pelo WhatsApp e painel da equipe que recebe as inscrições na hora. | `React` `TypeScript` `Supabase` `jsPDF` |
-| 🌐 **[Site institucional](https://www.inoveecontabilidade.com)** | Site da Inovee com serviços, unidades, blog e perguntas frequentes; o símbolo da empresa em 3D é desenhado em tempo real na página inicial. | `Astro` `TypeScript` `Three.js` |
+| **Sistema de gestão** <br/><sub>uso interno</sub> | Gestão do escritório de contabilidade: tarefas recorrentes e por etapas, empresas, incubadora, legalização, protocolos e controle de acesso por horário e computador. Atualização em tempo real, regras de segurança no banco e mais de 1.600 testes. | `React` `TypeScript` `Supabase` `PostgreSQL` `Cloudflare` |
+| **Inovee Eventos** <br/><sub>inscrições</sub> | Inscrição nos eventos da Inovee, com escolha da cidade, código de pré-inscrição, comprovante em PDF, confirmação pelo WhatsApp e painel da equipe que recebe as inscrições na hora. | `React` `TypeScript` `Supabase` `jsPDF` |
+| **[Site institucional](https://www.inoveecontabilidade.com)** | Site da Inovee com serviços, unidades, blog e perguntas frequentes; o símbolo da empresa em 3D é desenhado em tempo real na página inicial. | `Astro` `TypeScript` `Three.js` |
 
-## 🚀 Outros projetos
+## Outros projetos
 
 | Projeto | O que é | Tecnologias |
 |---|---|---|
-| 🎪 **[QuickStock / Stock4event](https://github.com/marcelo435/Mobile)** <br/><sub>contribuidor</sub> | App de estoque e vendas em eventos: o comerciante monta quiosques e vende; o fornecedor gerencia catálogo, vendas e entregas. | `React Native` `Expo` `TypeScript` |
-| 📊 **[Claude Monitor](https://github.com/marcelo435/claude-monitor)** | Extensão do VS Code e widget de área de trabalho que mostra o uso do Claude Code: limites do plano, tokens e atividade dos agentes. | `JavaScript` `C#` `PowerShell` |
-| 🎲 **[Bot de RPG para Discord](https://github.com/marcelo435/BOTRPG)** | Bot para mesas de RPG, com painel de vida por botões e dados salvos. | `Python` `discord.py` |
-| 🌑 **[O Abismo – Painel VTT](https://github.com/marcelo435/site-ficha)** | Painel de mesa virtual para RPG, com fichas dos personagens. | `HTML` `CSS` `JavaScript` |
+| **[QuickStock / Stock4event](https://github.com/marcelo435/Mobile)** <br/><sub>contribuidor</sub> | App de estoque e vendas em eventos: o comerciante monta quiosques e vende; o fornecedor gerencia catálogo, vendas e entregas. | `React Native` `Expo` `TypeScript` |
+| **[Claude Monitor](https://github.com/marcelo435/claude-monitor)** | Extensão do VS Code e widget de área de trabalho que mostra o uso do Claude Code: limites do plano, tokens e atividade dos agentes. | `JavaScript` `C#` `PowerShell` |
+| **[Bot de RPG para Discord](https://github.com/marcelo435/BOTRPG)** | Bot para mesas de RPG, com painel de vida por botões e dados salvos. | `Python` `discord.py` |
+| **[O Abismo – Painel VTT](https://github.com/marcelo435/site-ficha)** | Painel de mesa virtual para RPG, com fichas dos personagens. | `HTML` `CSS` `JavaScript` |
 
 ---
 
-## 📈 Atividade
+## Atividade
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=marcelo435&locale=pt_BR&hide_border=true&background=000000&stroke=333333&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=BBBBBB&dates=888888" alt="Sequência de contribuições" />
 </p>
 
-### 👾 Pac-Man comendo meus commits
+### Campo minado nas minhas contribuições
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/marcelo435/marcelo435/output/pacman-contribution-graph-dark.svg" />
-    <img src="https://raw.githubusercontent.com/marcelo435/marcelo435/output/pacman-contribution-graph.svg" alt="Pac-Man comendo as contribuições" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/marcelo435/marcelo435/output/minesweeper-contribution-graph-dark.svg" />
+    <img src="https://raw.githubusercontent.com/marcelo435/marcelo435/output/minesweeper-contribution-graph.svg" alt="Campo minado nas contribuições" />
   </picture>
 </p>
 
