@@ -19,7 +19,13 @@
 ## Sobre mim
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=1800&pause=400&color=FFFFFF&background=000000&multiline=true&repeat=false&width=620&height=200&lines=%24%20whoami;Marcelo%20Vitor%20%C2%B7%20desenvolvedor%20full%20stack;%24%20cat%20trabalho.txt;Estagi%C3%A1rio%20de%20T.I.%20na%20Inovee%20Contabilidade;%24%20ls%20sistemas-em-uso/;gestao-interna%20%20%20inovee-eventos%20%20%20site-institucional;%24%20cat%20estudando.txt;An%C3%A1lise%20e%20Desenvolvimento%20de%20Sistemas" alt="whoami: Marcelo Vitor, desenvolvedor full stack, estagiário de T.I. na Inovee Contabilidade" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=1800&pause=400&color=FFFFFF&background=000000&multiline=true&repeat=false&width=620&height=200&lines=%24%20whoami;Marcelo%20Vitor%20%C2%B7%20desenvolvedor%20full%20stack;%24%20cat%20trabalho.txt;Estagi%C3%A1rio%20de%20T.I.%20na%20Inovee%20Contabilidade;%24%20ls%20sistemas-em-uso/;gestao-interna%20%20%20inovee-eventos%20%20%20site-institucional;%24%20cat%20estudando.txt;An%C3%A1lise%20e%20Desenvolvimento%20de%20Sistemas%20%C2%B7%204%C2%BA%20per%C3%ADodo" alt="whoami: Marcelo Vitor, desenvolvedor full stack, estagiário de T.I. na Inovee Contabilidade" />
+</p>
+
+<p align="center">
+  Estou cursando <b>Análise e Desenvolvimento de Sistemas</b> e estou no <b>4º período</b>.<br/>
+  Adoro colocar minha criatividade e minhas ideias em sites funcionais e dinâmicos,<br/>
+  unindo <b>beleza</b>, <b>praticidade</b> e <b>segurança</b>.
 </p>
 
 <table align="center">
@@ -72,6 +78,13 @@
 </p>
 
 ---
+
+## Meu GitHub
+
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=marcelo435&show_icons=true&locale=pt-br&theme=dracula&hide_border=true&custom_title=Estat%C3%ADsticas%20do%20GitHub%20de%20Marcelo%20Vitor" alt="Estatísticas do GitHub" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcelo435&layout=compact&locale=pt-br&theme=dracula&hide_border=true&langs_count=6" alt="Linguagens mais usadas" />
+</p>
 
 ## Atividade
 
