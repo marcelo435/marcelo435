@@ -82,15 +82,11 @@
 ## Meu GitHub
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=marcelo435&show_icons=true&locale=pt-br&theme=dracula&hide_border=true&custom_title=Estat%C3%ADsticas%20do%20GitHub%20de%20Marcelo%20Vitor" alt="Estatísticas do GitHub" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcelo435&layout=compact&locale=pt-br&theme=dracula&hide_border=true&langs_count=6" alt="Linguagens mais usadas" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=marcelo435&show_icons=true&locale=pt-br&bg_color=000000&title_color=FFFFFF&icon_color=FFFFFF&text_color=FFFFFF&ring_color=FFFFFF&hide_border=true&custom_title=Estat%C3%ADsticas%20do%20GitHub%20de%20Marcelo%20Vitor" alt="Estatísticas do GitHub" />
+  <img height="180" src="https://streak-stats.demolab.com?user=marcelo435&locale=pt_BR&hide_border=true&background=000000&stroke=333333&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=BBBBBB&dates=888888" alt="Sequência de contribuições" />
 </p>
 
 ## Atividade
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=marcelo435&locale=pt_BR&hide_border=true&background=000000&stroke=333333&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=BBBBBB&dates=888888" alt="Sequência de contribuições" />
-</p>
 
 ### Cobrinha comendo minhas contribuições
 
