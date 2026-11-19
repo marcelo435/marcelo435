@@ -1,6 +1,7 @@
 # Gera a cobrinha comendo as contribuições, em degradê preto e branco, e publica no ramo "output" (o README usa a
 # imagem de lá). Quadradinhos: do cinza bem escuro (sem contribuição) ao branco (mais contribuições); cobra branca.
 # As automações de terceiros ficam presas a uma versão exata (o código daquele dia), não a uma que muda sozinha.
+# Também gera o cartão de estatísticas gerais (scripts/estatisticas.mjs), no mesmo ramo.
 # Roda todo dia e também dá para rodar na mão (Actions › Cobrinha › Run workflow).
 name: Cobrinha
 
@@ -8,6 +9,9 @@ on:
   schedule:
     - cron: "0 6 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [scripts/**, .github/workflows/**]
 
 permissions:
   contents: write
@@ -16,6 +20,13 @@ jobs:
   gerar:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Cartão de estatísticas gerais
+        run: node scripts/estatisticas.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
           github_user_name: ${{ github.repository_owner }}
