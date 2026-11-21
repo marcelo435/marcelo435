@@ -43,6 +43,7 @@ async function buscarNumeros() {
         user(login: $login) {
           contributionsCollection(from: $de, to: $ate) {
             totalCommitContributions
+            restrictedContributionsCount
             totalPullRequestReviewContributions
             commitContributionsByRepository(maxRepositories: 100) { repository { nameWithOwner } }
             pullRequestContributionsByRepository(maxRepositories: 100) { repository { nameWithOwner } }
@@ -53,7 +54,8 @@ async function buscarNumeros() {
       { login: USUARIO, de: `${ano}-01-01T00:00:00Z`, ate: ano === agora.getUTCFullYear() ? agora.toISOString() : `${ano}-12-31T23:59:59Z` },
     );
     const c = u.contributionsCollection;
-    commits += c.totalCommitContributions;
+    // Contribuições em repositórios privados: só aparecem se "Private contributions" estiver ligado no perfil.
+    commits += c.totalCommitContributions + c.restrictedContributionsCount;
     revisoes += c.totalPullRequestReviewContributions;
     for (const lista of [c.commitContributionsByRepository, c.pullRequestContributionsByRepository, c.issueContributionsByRepository]) {
       for (const item of lista) repos.add(item.repository.nameWithOwner);
