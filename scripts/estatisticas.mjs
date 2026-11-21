@@ -18,6 +18,18 @@ async function graphql(query, variables) {
   return json.data;
 }
 
+/** Soma os quadradinhos do quadro de contribuições público de um ano. */
+async function totalDoQuadro(ano) {
+  try {
+    const resp = await fetch(`https://github.com/users/${USUARIO}/contributions?from=${ano}-01-01&to=${ano}-12-31`);
+    if (!resp.ok) return 0;
+    const html = await resp.text();
+    return [...html.matchAll(/(\d+) contributions? on/g)].reduce((s, m) => s + Number(m[1]), 0);
+  } catch {
+    return 0;
+  }
+}
+
 async function buscarNumeros() {
   const { user } = await graphql(
     `query($login: String!) {
@@ -44,6 +56,7 @@ async function buscarNumeros() {
           contributionsCollection(from: $de, to: $ate) {
             totalCommitContributions
             restrictedContributionsCount
+            contributionCalendar { totalContributions }
             totalPullRequestReviewContributions
             commitContributionsByRepository(maxRepositories: 100) { repository { nameWithOwner } }
             pullRequestContributionsByRepository(maxRepositories: 100) { repository { nameWithOwner } }
@@ -55,7 +68,11 @@ async function buscarNumeros() {
     );
     const c = u.contributionsCollection;
     // Contribuições em repositórios privados: só aparecem se "Private contributions" estiver ligado no perfil.
-    commits += c.totalCommitContributions + c.restrictedContributionsCount;
+    // A API nem sempre entrega esse número ao token do Actions; nesse caso, usa a diferença entre o total
+    // do quadro público do perfil (que já inclui as privadas) e o total que a API enxerga.
+    const doQuadro = await totalDoQuadro(ano);
+    const privadas = Math.max(c.restrictedContributionsCount, doQuadro - c.contributionCalendar.totalContributions, 0);
+    commits += c.totalCommitContributions + privadas;
     revisoes += c.totalPullRequestReviewContributions;
     for (const lista of [c.commitContributionsByRepository, c.pullRequestContributionsByRepository, c.issueContributionsByRepository]) {
       for (const item of lista) repos.add(item.repository.nameWithOwner);
