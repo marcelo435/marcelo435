@@ -82,7 +82,7 @@
 ## Meu GitHub
 
 <p align="center">
-  <img height="180" src="https://raw.githubusercontent.com/marcelo435/marcelo435/output/estatisticas.svg" alt="Estatísticas gerais do GitHub" />
+  <img height="180" src="https://raw.githubusercontent.com/marcelo435/marcelo435/output/estatisticas.svg?v=670" alt="Estatísticas gerais do GitHub" />
   <img height="180" src="https://streak-stats.demolab.com?user=marcelo435&locale=pt_BR&hide_border=true&background=000000&stroke=333333&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=BBBBBB&dates=888888" alt="Sequência de contribuições" />
 </p>
 
